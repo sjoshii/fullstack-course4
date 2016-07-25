@@ -15,11 +15,11 @@ var dc = {};
 
 var homeHtmlUrl = "snippets/home-snippet.html";
 var allCategoriesUrl = 
-  "https://davids-restaurant.herokuapp.com/categories.json";
+  "http://davids-restaurant.herokuapp.com/categories.json";
 var categoriesTitleHtml = "snippets/categories-title-snippet.html";
 var categoryHtml = "snippets/category-snippet.html";
 var menuItemsUrl = 
-  "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
+  "http://davids-restaurant.herokuapp.com/menu_items.json?category=";
 var menuItemsTitleHtml = "snippets/menu-items-title.html";
 var menuItemHtml = "snippets/menu-item.html";
 
@@ -341,4 +341,3 @@ function insertItemPortionName(html,
 global.$dc = dc;
 
 })(window);
-
